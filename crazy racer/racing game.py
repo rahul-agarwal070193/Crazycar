@@ -24,8 +24,8 @@ car_height = 83
 pause = False
 
 # read hiscore from txt file 
-with open("hiscore.txt", "r") as f:
-    hiscore = f.read()
+hiscore = 500
+
 # loading images needed
 gameDisplay = pygame.display.set_mode((display_width, display_height))
 
