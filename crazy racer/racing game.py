@@ -1,7 +1,6 @@
 import pygame
 import random
 import time
-import pyglet
 
 pygame.init()
 pygame.mixer.init()
@@ -41,8 +40,7 @@ carImg4 = pygame.image.load('car_type_4.jpg')
 carImg3 = pygame.image.load('car_type_3.jpg')
 carImg5 = pygame.image.load('car_type_5.jpg')
 carImg6 = pygame.image.load('car_type_6.jpg')
-carImg7 = pyglet.resource.animation('rotating.gif')
-qw = pyglet.sprite.Sprite(carImg7)
+
 
 stop_sign = pygame.image.load('stop_sign_1.jpg')
 
